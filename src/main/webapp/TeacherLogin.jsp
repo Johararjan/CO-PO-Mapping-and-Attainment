@@ -29,10 +29,7 @@
 								
 						<H1>Welcome Teacher</H1>
 						<br>
-						<a href="AddTeacher.jsp"><button>Add Teacher</button></a>
-						<a href="AddSyllabus.html"><button>Add Syllabus Structure</button></a>
-						<a href="AddPo.jsp"><button>Add Program Outcomes</button></a>
-						<a href="AddPso.jsp"><button>Add Program Specific Outcomes</button></a>
+						<a href="Add Course Outcomes.jsp"><button>Add CO'S</button></a>
 		<%
 		}
 							else
