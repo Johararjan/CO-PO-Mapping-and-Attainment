@@ -29,7 +29,12 @@
 								
 						<H1>Welcome Teacher</H1>
 						<br>
-						<a href="Add Course Outcomes.jsp"><button>Add CO'S</button></a>
+						<p>Select the class:</p>
+						<a href="Fy.jsp"><button>FY</button></a>
+						<a href="Sy.jsp"><button>SY</button></a>
+						<a href="Ty.jsp"><button>TY</button></a>
+						<a href="Btech.jsp"><button>BTECH</button></a>
+		
 		<%
 		}
 							else
