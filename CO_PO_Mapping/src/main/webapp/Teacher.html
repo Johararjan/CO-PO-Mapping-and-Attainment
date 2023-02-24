@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Teacher Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+  <div class="flex">
+    <div class="item hover-underline"><a href="index.html">Home</a></div>
+    <div class="item hover-underline"><a href="Admin.html">Admin Home</a></div>
+    <div class="item hover-underline"><a href="Teacher.html">Teacher Home</a></div>
+  </div>
+</nav>
+
+  <div class="container">
+    <!-- <button type="button" onclick="window.history.back()" name="button"></button> -->
+    <img class="backBtn" onclick="window.history.back()" src="back-button.png" alt="" width="50px">
+    <h1>Teacher Login</h1>
+    <form action="TeacherLogin.jsp">
+      <div class="input-box">
+        <label>Username</label><br>
+        <input type="text" name="username" class="form-input"><br>
+      </div>
+    <div class="input-box">
+      <label>Password</label><br>
+      <input type="password" name="password" class="form-input"><br>
+    </div>
+    <button class="butn button_slide slide_left" type="submit" name="button"style="padding:15px 30px;">Login</button>
+  </div>
+
+  <footer>
+    Software Designed and created by <br/>
+    <span id='names'>Arjan Singh| Vishwajeet Takle| Saiprajakta Kadam</span> | All rights reserved &copy2022
+  </footer>
+
+
+</body>
+</html>

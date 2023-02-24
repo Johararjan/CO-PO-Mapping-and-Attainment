@@ -1,0 +1,65 @@
+.container2
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    /*font-size: 0.9en;*/
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container2 th
+{
+    background-color: #0a257cd2;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 70px;
+    
+}
+.container2 th
+.container2 td
+{
+    padding: 12px 15px;
+}
+.container2 tr
+{
+    height: 70px;
+}
+.container2 td input,textarea
+{
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 6px 450px;
+}
+/*
+.container2 tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+
+.container2 tbody tr:nth-of-type(even)
+{
+    background-color: #f3f3f3;
+}
+.container2 tbody tr:last-of-type
+{
+    border-bottom: 2px solid #0a257cd2;
+}*/

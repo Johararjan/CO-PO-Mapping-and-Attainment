@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>Insertco</display-name>
+    <servlet-name>Insertco</servlet-name>
+    <servlet-class>p1.Insertco</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Insertco</servlet-name>
+    <url-pattern>/Insertco</url-pattern>
+  </servlet-mapping>
+  <display-name>CO_PO_Mapping</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Printcomap</display-name>
+    <servlet-name>Printcomap</servlet-name>
+    <servlet-class>p1.Printcomap</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Printcomap</servlet-name>
+    <url-pattern>/Printcomap</url-pattern>
+  </servlet-mapping>
+</web-app>
