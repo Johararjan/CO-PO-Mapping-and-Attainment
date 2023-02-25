@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -12,7 +13,7 @@
 <jsp:include page="navbar.html" /> 
 
 <form action="poaddtodb.jsp" >
-
+//This is a change in code to display push command
 <table  class="container">
 <tr>
 <th>Sr No</th>
