@@ -14,6 +14,7 @@
 
 <form action="poaddtodb.jsp" >
 //This is a change in code to display push command
+//This is a change in code to display pull command from github
 <table  class="container">
 <tr>
 <th>Sr No</th>
